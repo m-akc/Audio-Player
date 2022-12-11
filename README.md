@@ -1,16 +1,16 @@
-# smaq
+Требования: Платформа - Windows.
 
-A new Flutter project.
+Audio Engine: Bass Audio Library (Через FFI)
+Framework: Flutter/dart
+API: Используется API Дизера (для доступа к обложкам альбомов)
 
-## Getting Started
+Возможности плеера:
+-Редактирование тегов.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Поиск текста песен в интернете(Надо всего лишь 1 раз нажать на название песни)
+Автоматическая загрузка артов и картинок с Дизера.
+Анализ тегов и времени трека.
+Создание плейлистов.
+2 вида Эквалайзера на выбор: обычный в ручном режиме или от компании Voxengo.
+Режим WASAPI (Exclusive mode)
+Dark/white Theme
